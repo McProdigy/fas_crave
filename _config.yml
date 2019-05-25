@@ -1,0 +1,21 @@
+title:             Fashion Blog
+email:             your-email@example.com
+description:       Kingdom of Fashion
+author:            Mark Phillip
+baseurl:           "fas_crave"
+url:               "http://blackrockdigital.github.io"
+
+# Social Profiles
+twitter_username:  SBootstrap #Change to my gloyes twitter account
+github_username:   BlackrockDigital  #The repo if I have it
+facebook_username: StartBootstrap  #And the my AMBnext facebook page
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+
